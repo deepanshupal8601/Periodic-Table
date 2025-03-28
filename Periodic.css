@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout for Periodic Table */
+.table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 5px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Element Styling */
+.element {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Empty Grid Spacer */
+.empty {
+    width: 60px;
+    height: 60px;
+}
+
+/* Element Category Colors */
+.nonmetal { background-color: #ff9999; }        /* Light Red */
+.alkali-metal { background-color: #ffcc99; }   /* Light Orange */
+.alkaline-earth { background-color: #ffff99; } /* Light Yellow */
+.transition-metal { background-color: #ccff99; } /* Light Green */
+.metalloid { background-color: #99ff99; }      /* Green */
+.post-transition { background-color: #99ffcc; } /* Light Cyan */
+.halogen { background-color: #99ffff; }        /* Cyan */
+.noble-gas { background-color: #99ccff; }      /* Light Blue */
+.lanthanide { background-color: #9999ff; }     /* Purple */
+.actinide { background-color: #cc99ff; }       /* Light Purple */
+.unknown { background-color: #d9b3ff; }        /* Soft Violet */
+
+/* Hover Effect */
+.element:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 0px 10px rgba(226, 4, 4, 0.3);
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .table {
+        grid-template-columns: repeat(9, 1fr);
+    }
+
+    .element {
+        width: 50px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .empty {
+        width: 50px;
+        height: 50px;}
+    }
