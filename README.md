@@ -11,7 +11,7 @@ Complete periodic table with element symbols and atomic numbers
 UI using HTML & CSS
 
 ## Screenshot
-![Screenshot](134810.png)
+![Screenshot](Screenshot 2025-03-28 134810.png)
 
 ## How to Use
 Download or clone this repository.
