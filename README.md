@@ -15,7 +15,7 @@ UI using HTML & CSS
 
 ## How to Use
 Download or clone this repository.
-Open the `Periodic.html` file in a web browser.
+Open the `Periodic.html` file in  web browser.
 
 ## Author
 - **Deepanshu Pal** - [GitHub Profile](https://github.com/deepanshupal8601)
